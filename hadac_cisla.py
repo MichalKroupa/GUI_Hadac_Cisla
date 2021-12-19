@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
         msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Close)
 
         returnValue = msgBox.exec()
-        # Pokud uživatel zmáčkne OK, program se restartuje a můžeme hádat znovu
+        # Pokud uživatel zmáčkne Ok, program se restartuje a můžeme hádat znovu
         if returnValue == QMessageBox.Ok:
             self.tipnout_button.setEnabled(False)
             self.zadaneCislo_spinBox.setEnabled(False)
